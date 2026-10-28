@@ -16,9 +16,10 @@ npm run dev
 ```sh
 npm run build
 npm run lint
+npm test
 ```
 
-Texty jsou uložené pouze v localStorage daného prohlížeče. Pro zálohu použijte export do `.txt`. Aplikace nemá server ani synchronizaci mezi zařízeními.
+Bez přihlášení se texty ukládají v prohlížeči. Volitelné přihlášení přes Supabase umožňuje soukromé cloudové ukládání a přístup z mobilu. Postup propojení s Vercel je v [CLOUD_SETUP.md](CLOUD_SETUP.md). Pro zálohu lze použít export do `.txt`.
 
 ## Nasazení
 
